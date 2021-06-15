@@ -1,8 +1,8 @@
 # web-scraping-challenge
 
-To Run this project:
-# @NOTE: Replace the path with your actual path to the chromedriver
-# go to the Mission_to_Mars folder and execute  with "flask run"
+##To Run this project:
+ @NOTE: Replace the path with your actual path to the chromedriver
+go to the Mission_to_Mars folder and execute  with "flask run"
 
 
 # Web Scraping - Mission to Mars
