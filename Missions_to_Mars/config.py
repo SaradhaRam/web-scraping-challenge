@@ -1,1 +1,1 @@
-chromedriver_path = "Replace the path with your actual path to the chromedriver "
+chromedriver_path = "Replace the path with your actual path to the chromedriver"
