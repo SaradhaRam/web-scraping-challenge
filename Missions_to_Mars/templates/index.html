@@ -32,21 +32,27 @@
             <table>{{ mars.mars_facts|safe }}</table>
         </div>
 
-        <!-- Mars hemispheres ul===== style="list-style: none;" -->
-        <div>
-            <h2>Mars hemispheres</h2>
-            <ul>
+        <!--Mars Hemispheres-->
+        <div class="rows">
 
-                {% for hemi in mars.hemisphere_images %}
-                <li>{{hemi.tile}}</li>
-                <li> <img src={{hemi.img_ulr}}></li>
-                {% endfor %}
+            {% for hemi in mars.hemisphere_images %}
+            <table class="hemi-inline">
 
-            </ul>
+                <tr>
+                    <th>{{hemi.tile}}</th>
+                </tr>
+                <tr>
+                    <td> <img width="200 px" height="200 px" src="{{hemi.img_ulr}}"></td>
+                </tr>
+
+            </table>
+            {% endfor %}
         </div>
+    </div>
+    </div>
 
     </div>
-    </div>
+
 </body>
 
 </html>
