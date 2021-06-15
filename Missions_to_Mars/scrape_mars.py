@@ -5,11 +5,12 @@ import pandas as pd
 import requests
 import pymongo
 import os
+from config import chromedriver_path
 
 
 def init_browser():
     # @NOTE: Replace the path with your actual path to the chromedriver
-    executable_path = {"executable_path": "c:/Users/vijay/Downloads/chromedriver_win32_new/chromedriver"}
+    executable_path = {"executable_path": chromedriver_path}
     # {'executable_path': ChromeDriverManager().install()}
     return Browser("chrome", **executable_path, headless=False)
 
