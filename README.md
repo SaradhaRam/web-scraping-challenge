@@ -1,5 +1,10 @@
 # web-scraping-challenge
 
+To Run this project:
+# @NOTE: Replace the path with your actual path to the chromedriver
+# go to the Mission_to_Mars folder and execute  with "flask run"
+
+
 # Web Scraping - Mission to Mars
 
 In this assignment, you will build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following outlines what you need to do.
